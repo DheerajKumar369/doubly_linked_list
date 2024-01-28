@@ -47,9 +47,8 @@ public class linkedlist
     {
         Node newnNode = new Node(data);
         Node temp = head;
-        while(temp !=null && temp.data != nextTo){
+        while(temp !=null && temp.data != nextTo){      // iterating the node
             temp = temp.next;
-            System.out.println("node added");
         }
         if(temp == null){                           //no node is there
             return;

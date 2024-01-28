@@ -1,0 +1,1 @@
+temp.prev.next = temp.next;
